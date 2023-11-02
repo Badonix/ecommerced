@@ -89,4 +89,22 @@
     margin-bottom: 10%;
     margin-left: 15%;
   }
-  
+  @media(max-width: 650px){
+    .second{
+      display: none;
+    }
+  }
+  @media(max-width: 470px){
+    .weri{
+      font-size: 20px;
+    }
+    .weri span{
+      font-size: 33px;
+    }
+    .xut{
+      font-size: 14px;
+    }
+    .btn{
+      font-size: 12px;
+    }
+  }

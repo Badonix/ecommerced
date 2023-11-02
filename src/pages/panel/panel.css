@@ -1,0 +1,121 @@
+
+.pp{
+    width: 90%;
+    margin-left: 5%;
+    max-width: 1100px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+.mg{
+    width: 70%;
+    height: auto;
+    max-width: 800px;
+    margin-left: 15%;
+}
+
+.yutissaxeli {
+    font-size: 50px;
+    margin-left: 10%;
+    color: rgb(9, 9, 9);
+}
+.yutissaxelii {
+    color: rgb(9, 9, 9);
+    margin-bottom: 7%;
+    font-size: 50px;
+}
+  
+.txtddv {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.imisp {
+    font-size: 24px;
+}
+.gallery {
+    flex-direction: row;
+    padding: 30px;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gallery img {
+    width: 20%;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    height: auto;
+}
+.gallery img:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-box-shadow: 0 0 8px #ccc;
+    box-shadow: 0 0 8px #ccc;
+}
+
+@media (max-width: 900px) {
+    .gallery {
+      width: 100%;
+      margin-left: 0;
+    }
+    .gallery img {
+      width: 30%;
+    }
+  }
+  @media (max-width: 670px) {
+    .gallery {
+      flex-direction: column;
+    }
+    .gallery img {
+      margin-bottom: 5%;
+      width: 60%;
+    }
+    .imisp {
+      font-size: 18px;
+    }
+    .yutissaxeli {
+      font-size: 30px;
+      margin-left: 7%;
+    }
+    .yutissaxelii {
+      font-size: 30px;
+    }
+  }
+  @media (max-width: 470px) {
+    .gallery {
+      flex-direction: column;
+    }
+    .gallery img {
+      margin-bottom: 5%;
+      width: 80%;
+    }
+    .yutissaxeli {
+      font-size: 29px;
+      margin-left: 5%;
+    }
+    .yutissaxelii {
+      font-size: 29px;
+    }
+  }
+  @media (max-width: 370px) {
+    .gallery {
+      flex-direction: column;
+    }
+    .gallery img {
+      margin-bottom: 5%;
+      width: 90%;
+    }
+    .imisp {
+      font-size: 14px;
+    }
+    .yutissaxeli {
+      font-size: 29px;
+    }
+    .yutissaxelii {
+      font-size: 29px;
+    }
+  }

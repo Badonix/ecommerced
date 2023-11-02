@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ShopContext } from "../../context/shop-context";
-
+import './cart.css'
 export const CartItem = (props) => {
   const { id, productName, price, productImage } = props.data;
   const { cartItems, addToCart, removeFromCart, updateCartItemCount } =
@@ -13,7 +13,7 @@ export const CartItem = (props) => {
         <p>
           <b>{productName}</b>
         </p>
-        <p> Price: ${price}</p>
+        <p> ფასი: {price} ლარი</p>
         <div className="countHandler">
           <button onClick={() => removeFromCart(id)}> - </button>
           <input

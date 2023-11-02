@@ -1,0 +1,59 @@
+.satus{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.satus h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: black;
+}
+.paragraph{
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    font: 20px;
+    font-weight: 500;
+}
+.daigi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+}
+.daigi h1, .daigi h2{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    margin-left: 3%;
+}
+.daigi h1{ 
+    color: rgb(4, 4, 94);
+}
+.mapi{
+    width: 50%;
+    height: 400px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+@media(max-width: 840px){
+    .daigi{
+        flex-direction: column;
+    }
+}
+@media(max-width: 350px){
+    .daigi h1, .daigi h2{
+        font-size: 15px;
+    }
+}
+@media(max-width: 500px){
+    .satus h1{
+        font-size: 25px;
+    }
+    .paragraph p{
+        font-size: 15px;
+    }
+}

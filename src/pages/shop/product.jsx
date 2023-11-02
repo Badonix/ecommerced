@@ -4,7 +4,7 @@ import { ShopContext } from "../../context/shop-context";
 import "../shop/shop.css";
 import { SALES } from "../../products";
 export const Product = (props) => {
-  const { id, productName, price, productImage, description } = props.data;
+  const { id, productName, price, productImage, description, size } = props.data;
   const { addToCart, cartItems } = useContext(ShopContext);
 
   const cartItemCount = cartItems[id];
@@ -16,7 +16,6 @@ export const Product = (props) => {
       </Link>
       <div class="card-info">
         <p class="text-title">{productName}</p>
-        <p class="text-body">{description}</p>
       </div>
       <div class="card-footer">
         <span class="text-title">{price}</span>

@@ -13,56 +13,68 @@ export const PRODUCTS = [
     productName: "IPhone",
     price: 999.0,
     productImage: product1,
-    description: 'description'
+    description: 'Pivotი - არის საოფისე მაგიდის თანამედროვე ინტერპრეტაცია მიუხედავად მარტივი და მინიმალისტური დიზაინისა, მაგიდა გამოირჩევა სიმყარით და ხანგრძლივი ექსპლუატაციის ვადით. ზომებისა და ფერების არჩევის შესაძლებლობით, ვიზუალურად მიმზიდველი და ფუნქციონალურია.',
+    size: '23cm x 25cm x 25cm'
   },
   {
     id: 2,
     productName: "Macbook Pro 2022 (M1)",
     price: 1999.0,
     productImage: product2,
-    description: 'description'
+    description: 'description',
   },
   {
     id: 3,
     productName: "Cannon M50 Camera",
     price: 699.0,
     productImage: product3,
-    description: 'description'
+    description: 'description',
+    size: '23cm x 25cm x 25cm'
+
   },
   {
     id: 4,
     productName: "WLS Van Gogh Denim Jacket",
     price: 228.0,
     productImage: product4,
-    description: 'description'
+    description: 'description',
+    size: '23cm x 25cm x 25cm'
+
   },
   {
     id: 5,
     productName: "LED Light Strips",
     price: 19.99,
     productImage: product5,
-    description: 'description'
+    description: 'description',
+    size: '23cm x 25cm x 25cm'
+
   },
   {
     id: 6,
     productName: "SPECTRUM LS TEE",
     price: 68.0,
     productImage: product6,
-    description: 'description'
+    description: 'description',
+    size: '23cm x 25cm x 25cm'
+
   },
   {
     id: 7,
     productName: "AUTO SERVICE SHIRT by GOLF WANG",
     price: 120.0,
     productImage: product7,
-    description: 'description'
+    description: 'description',
+    size: '23cm x 25cm x 25cm'
+
   },
   {
     id: 8,
     productName: "DON'T TRIP UNSTRUCTURED HAT",
     price: 40.0,
     productImage: product8,
-    description: 'description'
+    description: 'description',
+    size: '23cm x 25cm x 25cm'
   },
 ];
 export const SALES = [

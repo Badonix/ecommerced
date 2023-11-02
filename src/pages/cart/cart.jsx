@@ -14,7 +14,7 @@ export const Cart = () => {
   return (
     <div className="cart">
       <div>
-        <h1>Your Cart Items</h1>
+        <h1>თქვენი კალათა</h1>
       </div>
       <div className="cart">
         {PRODUCTS.map((product) => {
@@ -26,20 +26,11 @@ export const Cart = () => {
 
       {totalAmount > 0 ? (
         <div className="checkout">
-          <p> Subtotal: ${totalAmount} </p>
-          <button onClick={() => navigate("/")}> Continue Shopping </button>
-          <button
-            onClick={() => {
-              checkout();
-              navigate("/checkout");
-            }}
-          >
-            {" "}
-            Checkout{" "}
-          </button>
+          <p> ჯამი: {totalAmount} ლარი</p>
+          <button onClick={() => navigate("/shop")}>არჩევის გაგრძელება</button>
         </div>
       ) : (
-        <h1> Your Shopping Cart is Empty</h1>
+        <h1>თქვენი კალათა ცარიელია</h1>
       )}
     </div>
   );
